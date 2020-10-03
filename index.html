@@ -32,48 +32,75 @@
         <a href="#" class="boton">Contactar</a>
       </div>
     </div>
-
-    <main class="servicios contenedor">
-      <h2>Nuestros Servicios</h2>
-      <div class="contenedor-servicios">
-        <div class="servicio">
-          <h3>Disenio Web</h3>
-          <div class="icono">
-            <i class="fas fa-pen-nib"></i>
+    <div class="servicios contenedor">
+      <main>
+        <h2>Nuestros Servicios</h2>
+        <div class="contenedor-servicios">
+          <div class="servicio">
+            <h3>Disenio Web</h3>
+            <div class="icono">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <p>
+              Dignissimos laboriosam omnis et dolore id, similique enim minima
+              quis quae ipsam non earum, modi magnam cum ducimus.
+            </p>
           </div>
-          <p>
-            Dignissimos laboriosam omnis et dolore id, similique enim minima
-            quis quae ipsam non earum, modi magnam cum ducimus.
-          </p>
-        </div>
 
-        <div class="servicio">
-          <h3>Aplicaciones Moviles</h3>
-          <div class="icono">
-            <i class="fab fa-android"></i>
-            <i class="fab fa-apple"></i>
+          <div class="servicio">
+            <h3>Aplicaciones Moviles</h3>
+            <div class="icono">
+              <i class="fab fa-android"></i>
+              <i class="fab fa-apple"></i>
+            </div>
+            <p>
+              Dignissimos laboriosam omnis et dolore id, similique enim minima
+              quis quae ipsam non earum, modi magnam cum ducimus.
+            </p>
           </div>
-          <p>
-            Dignissimos laboriosam omnis et dolore id, similique enim minima
-            quis quae ipsam non earum, modi magnam cum ducimus.
-          </p>
-        </div>
 
-        <div class="servicio">
-          <h3>Social Media</h3>
-          <div class="icono">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
+          <div class="servicio">
+            <h3>Social Media</h3>
+            <div class="icono">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <p>
+              Dignissimos laboriosam omnis et dolore id, similique enim minima
+              quis quae ipsam non earum, modi magnam cum ducimus.
+            </p>
           </div>
-          <p>
-            Dignissimos laboriosam omnis et dolore id, similique enim minima
-            quis quae ipsam non earum, modi magnam cum ducimus.
-          </p>
         </div>
-      </div>
-      <div class="contenedor-contacto">
+      </main>
+
+      <section id="contacto" class="contacto">
         <h2>Contacto</h2>
-      </div>
-    </main>
+        <form action="#">
+          <legend>Contactanos llenando los siguientes campos</legend>
+
+          <div class="contenedor-contactos">
+            <div class="campo">
+              <label>Nombre</label>
+              <input type="text" name="nombre" placeholder="Nombre" />
+            </div>
+            <div class="campo">
+              <label>Telefono</label>
+              <input type="number" name="telefono" placeholder="Telefono" />
+            </div>
+            <div class="campo">
+              <label>Correo</label>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="campo">
+              <label>Mensaje</label>
+              <textarea placeholder="Mensaje"></textarea>
+            </div>
+          </div>
+        </form>
+        <div class="enviar">
+            <input type="submit" class="boton" value="enviar" />
+          </div>
+      </section>
+    </div>
   </body>
 </html>
