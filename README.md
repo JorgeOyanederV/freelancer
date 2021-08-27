@@ -1,3 +1,3 @@
-# Mi primero proyecto con HTML y CSS
+# Mi primer proyecto con HTML y CSS
 Aqui dejo el link para su revision...
 https://disenio-web-html-css.netlify.app/
